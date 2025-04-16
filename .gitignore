@@ -1,0 +1,166 @@
+# Dependências
+node_modules/
+.pnp
+.pnp.js
+
+# Produção
+build/
+dist/
+
+# Miscelânea
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.idea
+.vscode
+*.swp
+*.swo
+
+# Arquivos do sistema
+desktop.ini
+Thumbs.db
+
+# Arquivos de mídia
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+*.xlsx
+*.csv
+
+# Arquivos de instalação
+*.exe
+*.msi
+*.zip
+
+# Arquivos de configuração local
+*.local
+*.env
+
+# Ignorar todos os arquivos por padrão
+*
+
+# Exceto os arquivos do projeto
+!src/
+!public/
+!package.json
+!package-lock.json
+!vite.config.js
+!tailwind.config.js
+!postcss.config.js
+!index.html
+!.gitignore
+
+# Ignorar arquivos específicos
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+*.xlsx
+*.csv
+*.exe
+*.msi
+*.zip
+*.mp3
+*.wav
+*.txt
+*.url
+desktop.ini
+Thumbs.db
+
+# Ignorar diretórios específicos
+Davinci resolve/
+Musicas Canal Miguel/
+Nova pasta/
+Pools Meteora/
+Viagem/
+Videos Canal Miguel/
+chatbot-demo-site/
+
+# Exceto o diretório do projeto
+!chatbots-portfolio-main/
+
+# E dentro do diretório do projeto, ignorar:
+/chatbots-portfolio-main/node_modules/
+/chatbots-portfolio-main/.pnp
+/chatbots-portfolio-main/.pnp.js
+/chatbots-portfolio-main/coverage/
+/chatbots-portfolio-main/build/
+/chatbots-portfolio-main/dist/
+/chatbots-portfolio-main/.DS_Store
+/chatbots-portfolio-main/.env.local
+/chatbots-portfolio-main/.env.development.local
+/chatbots-portfolio-main/.env.test.local
+/chatbots-portfolio-main/.env.production.local
+/chatbots-portfolio-main/npm-debug.log*
+/chatbots-portfolio-main/yarn-debug.log*
+/chatbots-portfolio-main/yarn-error.log*
+/chatbots-portfolio-main/.idea/
+/chatbots-portfolio-main/.vscode/
+/chatbots-portfolio-main/*.swp
+/chatbots-portfolio-main/*.swo
+/chatbots-portfolio-main/desktop.ini
+/chatbots-portfolio-main/Thumbs.db
+
+# Mas não ignorar os arquivos do projeto
+!chatbots-portfolio-main/src/
+!chatbots-portfolio-main/public/
+!chatbots-portfolio-main/package.json
+!chatbots-portfolio-main/package-lock.json
+!chatbots-portfolio-main/vite.config.js
+!chatbots-portfolio-main/tailwind.config.js
+!chatbots-portfolio-main/postcss.config.js
+!chatbots-portfolio-main/index.html
+!chatbots-portfolio-main/.gitignore
+
+# Ignorar todos os arquivos do diretório pai
+../*
+
+# Exceto o diretório do projeto
+!../chatbots-portfolio-main/
+
+# E dentro do diretório do projeto, ignorar:
+node_modules/
+.pnp
+.pnp.js
+coverage/
+build/
+dist/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea/
+.vscode/
+*.swp
+*.swo
+desktop.ini
+Thumbs.db
+
+# Mas não ignorar os arquivos do projeto
+!src/
+!public/
+!package.json
+!package-lock.json
+!vite.config.js
+!tailwind.config.js
+!postcss.config.js
+!index.html
+!.gitignore 
