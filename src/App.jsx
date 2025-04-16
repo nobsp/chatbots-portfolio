@@ -3,6 +3,7 @@ import { useState } from "react";
 function App() {
   const [chatVisible, setChatVisible] = useState(false);
 
+  // Teste de deploy Vercel
   return (
     <main className="min-h-screen bg-gray-100 text-gray-800 p-4">
       <section className="text-center py-20">
