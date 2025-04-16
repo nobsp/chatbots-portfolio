@@ -7,19 +7,19 @@ function App() {
   return (
     <main className="min-h-screen bg-gray-100 text-gray-800 p-4">
       <section className="text-center py-20">
-        <h1 className="text-4xl font-bold mb-4">Chatbots com IA sob medida</h1>
-        <p className="text-lg mb-6 max-w-xl mx-auto">
+        <h1 className="text-4xl font-bold mb-4 animate-fade-in">Chatbots com IA sob medida</h1>
+        <p className="text-lg mb-6 max-w-xl mx-auto animate-fade-in">
           Automatize atendimentos, gere leads e aumente sua produtividade com chatbots personalizados para seu negócio.
         </p>
         <button
           onClick={() => setChatVisible(true)}
-          className="bg-blue-600 text-white px-6 py-2 rounded-xl hover:bg-blue-700 transition"
+          className="bg-blue-600 text-white px-6 py-2 rounded-xl hover:bg-blue-700 transition duration-300 transform hover:scale-105"
         >
           Ver Demonstração
         </button>
       </section>
 
-      <section className="py-16 bg-white text-center">
+      <section className="py-16 bg-white text-center animate-slide-in">
         <h2 className="text-2xl font-semibold mb-4">O que oferecemos</h2>
         <p className="mb-4">
           Desenvolvemos chatbots que entendem e interagem com seus clientes como humanos, integrados com IA de ponta.
@@ -59,7 +59,7 @@ function App() {
       </section>
 
       {chatVisible && (
-        <div className="fixed bottom-4 right-4 bg-white rounded-2xl shadow-lg p-4 max-w-xs">
+        <div className="fixed bottom-4 right-4 bg-white rounded-2xl shadow-lg p-4 max-w-xs animate-fade-in">
           <div className="mb-2 font-semibold">Chatbot Demo</div>
           <p className="text-sm">
             Olá! Sou um exemplo de chatbot com IA. Como posso te ajudar?
